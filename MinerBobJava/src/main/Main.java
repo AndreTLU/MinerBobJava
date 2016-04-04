@@ -8,7 +8,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Miner miner = new Miner();
 		
-		for(int i= 0; i<5; i++){
+		for(int i= 0; i<10; i++){
 			miner.Update();
 			try {
 				Thread.sleep(1000);
